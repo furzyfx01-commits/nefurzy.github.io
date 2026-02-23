@@ -1,0 +1,86 @@
+Please update and adapt my existing website theme (glassmorphism UI style,
+blue–purple gradient, modern and futuristic as shown in the provided images)
+to a CREATIVE DESIGN STUDIO website.
+
+Brand name (keep Vietnamese):
+- DES STUDIO
+- Studio thiết kế sáng tạo, high-end
+- Phong cách cinematic, futuristic, glassmorphism
+
+────────────────────────────
+1. Banner / Hero Section
+────────────────────────────
+- Large, bold headline such as:
+  “Design Beyond Limits”
+  or
+  “Cinematic Design Studio”
+- Subtitle describing visual design, cinematic intro, branding, motion graphics
+- Call-to-action buttons:
+  “View Portfolio”
+  “Start a Project”
+- Display brand name DES STUDIO clearly in the hero area
+
+────────────────────────────
+2. Logo
+────────────────────────────
+- Text-based logo using the name: DES STUDIO
+- Minimal, modern typography
+- Subtle glow and blue–purple gradient
+- High-end, clean, futuristic identity
+
+────────────────────────────
+3. Intro Section
+────────────────────────────
+- Short introduction about DES STUDIO:
+  “DES STUDIO là studio thiết kế sáng tạo chuyên về đồ họa,
+   cinematic intro, poster và concept visual.”
+- Professional, cinematic, premium tone
+- Emphasize creativity, depth, and visual storytelling
+
+────────────────────────────
+4. Core Services / Features
+────────────────────────────
+Display services as glassmorphism cards with depth and hover glow:
+
+- Thiết kế quần áo (Fashion Design)
+  • Streetwear, hoodie, apparel concepts
+  • Graphic design, typography, visual concepts
+
+- Xe mod / xe độ (Vehicle Design)
+  • Decal design, wrap concepts
+  • Visual concepts for motorcycles and cars
+
+- Poster & Visual Art
+  • Movie posters, event posters, music visuals
+  • Cinematic and futuristic styles
+
+- Intro Cinematic
+  • Cinematic intro videos
+  • Logo animation, trailers, motion graphics
+
+────────────────────────────
+5. Gallery / Portfolio
+────────────────────────────
+- Showcase DES STUDIO projects in categories:
+  • Thời trang
+  • Xe mod
+  • Poster
+  • Intro cinematic
+- Glass-style cards, rounded corners
+- Hover animations, glow effects, layered depth
+
+────────────────────────────
+6. UI & Visual Style
+────────────────────────────
+- Maintain glassmorphism design language
+- Dark blue / purple / black gradient background
+- Strong blur effects, soft shadows, neon highlights
+- Modern, readable, premium typography
+
+────────────────────────────
+Technical Requirements
+────────────────────────────
+- Keep the existing layout structure
+- Update only content, imagery, and theme direction
+- Fully responsive on desktop and mobile
+- Main text in English, brand-related terms remain Vietnamese (DES STUDIO)

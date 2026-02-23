@@ -1,0 +1,124 @@
+1. Các lỗi cần sửa
+
+Chữ DES đang bị lỗi hiển thị
+
+Khoảng cách scroll quá nhanh, animation không bám theo con lăn
+
+Khoảng cách giữa DES và Core Services quá xa, không có cảm giác cùng một cảnh
+
+Hiệu ứng chuyển cảnh không mượt, bị tách rời
+
+2. Logic hiệu ứng ĐÚNG (bắt buộc làm theo)
+
+Hiệu ứng phải là một luồng liên tục, không bị cắt khúc.
+
+A. DES → Core Services
+
+Khi scroll tới section:
+
+Chữ DES xuất hiện trước
+
+DES rất to, rõ nét (không mờ quá)
+
+Khi tiếp tục lăn chuột xuống:
+
+BÊN TRONG / Ở GIỮA CHỮ DES,
+chữ Core Services bắt đầu hiện ra từ từ
+
+Core Services:
+
+Hiện theo kiểu mờ mờ (fade in nhẹ)
+
+Đồng thời phóng to dần
+
+Scroll tiếp:
+
+Core Services ở vị trí trung tâm
+
+DES lùi lại / thu nhỏ / biến mất dần
+
+Scroll tiếp nữa:
+
+Core Services thu nhỏ dần
+
+Trở về kích thước & khoảng cách mặc định
+
+👉 Cảm giác:
+DES mở cảnh → Core Services xuất hiện từ trong DES → Core Services làm chủ cảnh
+
+B. Core Services → Professional Visual Identity
+
+Áp dụng Y HỆT LOGIC TRÊN
+
+Có MỘT CHỮ DES RIÊNG cho section:
+
+Professional Visual Identity
+
+Trình tự:
+
+DES hiện to
+
+Scroll xuống → Professional Visual Identity hiện dần từ trong DES
+
+Scroll tiếp → Professional Visual Identity to ra rồi thu nhỏ về mặc định
+
+3. Hành vi scroll chung cho TẤT CẢ chữ
+
+Áp dụng cho:
+
+DES
+
+Core Services
+
+Professional Visual Identity
+
+Quy tắc:
+
+Scroll lên → chữ to dần ra
+
+Scroll xuống → chữ thu nhỏ và chuyển cảnh sang chữ tiếp theo
+
+Animation phải reverse mượt, không giật
+
+4. Yêu cầu về tốc độ & khoảng cách
+
+Giảm tốc độ scroll animation:
+
+Chậm
+
+Cinematic
+
+Khoảng cách giữa:
+
+DES ↔ Core Services
+
+DES ↔ Professional Visual Identity
+→ PHẢI GẦN, cảm giác cùng một scene
+
+5. Yêu cầu kỹ thuật
+
+Sử dụng GSAP + ScrollTrigger
+
+Dùng scrub để animation bám sát con lăn
+
+Timeline liền mạch, không tách animation rời rạc
+
+Không dùng animation on-load
+
+6. Mục tiêu cuối
+
+Typography chuyển cảnh mượt
+
+DES là chữ mở cảnh
+
+Tiêu đề section là chữ tiếp cảnh
+
+Trải nghiệm scroll giống website GTA 6
+
+⚠️ GHI CHÚ RẤT QUAN TRỌNG
+
+DES không phải chữ trang trí
+
+Core Services & Professional Visual Identity phải “chui ra” từ DES
+
+Scroll = timeline duy nhất
